@@ -35,10 +35,19 @@ O texto de cada notícia será formado pela junção do título e da descrição
 ## Resultados
 Preencher esta seção após executar o notebook. Usar os valores efetivamente calculados pelo modelo.
 
-- **Acurácia:** [preencher]
-- **Precisão macro:** [preencher]
-- **Recall macro:** [preencher]
-- **F1-score macro:** [preencher]
+Acurácia obtida: 0.8967
+
+Relatório de Classificação:
+              precision    recall  f1-score   support
+
+       World       0.91      0.89      0.90      1900
+      Sports       0.95      0.98      0.96      1900
+    Business       0.87      0.85      0.86      1900
+    Sci/Tech       0.87      0.87      0.87      1900
+
+    accuracy                           0.90      7600
+   macro avg       0.90      0.90      0.90      7600
+weighted avg       0.90      0.90      0.90      7600
 
 ## Referências
 1. Zhang, Xiang; Zhao, Junbo; LeCun, Yann. *Character-level Convolutional Networks for Text Classification*. 2015.
